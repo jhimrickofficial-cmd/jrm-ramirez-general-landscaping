@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Sora:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#f9f9f6","surface-variant":"#e2e3e0","surface-container-low":"#f4f4f1","on-tertiary":"#ffffff","primary-fixed":"#baf2a0","surface-container-high":"#e8e8e5","on-tertiary-container":"#8ea281","primary":"#052400","on-primary":"#ffffff","outline-variant":"#c2c9b9","secondary-fixed-dim":"#91d78a","on-secondary-container":"#307231","secondary-container":"#acf4a4","on-background":"#1a1c1b","on-secondary":"#ffffff","inverse-on-surface":"#f1f1ee","tertiary":"#12220b","on-tertiary-fixed":"#101f09","inverse-surface":"#2f312f","on-tertiary-fixed-variant":"#3a4c31","primary-container":"#0d3c00","on-primary-container":"#76a960","surface-container":"#eeeeeb","surface-tint":"#3a6929","on-error-container":"#93000a","on-surface-variant":"#42493d","surface-container-highest":"#e2e3e0","on-primary-fixed":"#052100","on-error":"#ffffff","tertiary-container":"#27381f","surface":"#f9f9f6","background":"#f9f9f6","on-surface":"#1a1c1b","tertiary-fixed-dim":"#b8cdaa","primary-fixed-dim":"#9fd587","outline":"#72796c","surface-dim":"#dadad7","on-secondary-fixed-variant":"#0c5216","error-container":"#ffdad6","surface-container-lowest":"#ffffff","secondary":"#2a6b2c","inverse-primary":"#9fd587","on-primary-fixed-variant":"#235112","tertiary-fixed":"#d4e9c4","error":"#ba1a1a","secondary-fixed":"#acf4a4"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xl":"3.5rem","space-sm":"0.75rem","space-md":"1.25rem","margin":"3rem","gutter":"1.5rem","space-lg":"2rem","space-xs":"0.375rem","gutter-mobile":"1rem","margin-mobile":"1.25rem"},fontFamily:{"caption":["Inter"],"headline-lg-mobile":["Sora"],"headline-sm":["Sora"],"body-sm":["Inter"],"headline-md":["Sora"],"label-md":["Sora"],"body-lg":["Inter"],"headline-lg":["Sora"],"display":["Sora"],"label-lg":["Sora"],"body-md":["Inter"],"display-mobile":["Sora"]},fontSize:{"caption":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"600"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed relative"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-20 max-w-[1360px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between"><a class="flex items-center gap-space-xs text-primary group" data-path="home" href="#"><div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary flex items-center justify-center font-headline-sm text-headline-sm transition-transform group-hover:scale-95">R</div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm leading-none tracking-tight text-primary">RAMIREZ</span><span class="font-caption text-caption uppercase tracking-wider text-outline text-[10px]">Architectural Landscaping</span></div></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-primary font-semibold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="portfolio" href="#">Portfolio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#">Services &amp; Craft</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="specifications" href="#">Spec Matrix</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="request-estimate" href="#">Estimate</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg transition-all hover:bg-primary hover:-translate-y-0.5 shadow-[0_8px_20px_rgba(13,60,0,0.12)]" data-path="request-estimate" href="#">Book Consultation</a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-variant" src="https://lh3.googleusercontent.com/aida/AEtjO1XtSbmrNZw0uX9jYFMeIIGCLfLHH_4Vpyk8-hFIC8ffbG71gXUVHJK0uSz83lrDWOi-bGhKp7BaGHBLRlvKWsN7FjUmK7GhIj8a2htANELzRXkk9iqvn6AycnlBkoB9MOuntziEgOHNxMeYtQDKLukY2gFex2Epwl_sWhwTD5onr-2Gp6LyLqh6E8lvDa1MVMBeU-B3p_o9VzXIv1hN3KAt_z0oSdQHl8gYA8nPLGqoP5EqlIGOGCgaiuao"/></div><button aria-label="Toggle Menu" class="md:hidden flex items-center justify-center w-10 h-10 rounded-lg text-primary hover:bg-surface-container transition-colors" id="menu-toggle"><span class="material-symbols-outlined">menu</span></button></div></div><div class="hidden md:hidden bg-surface-container-lowest px-margin-mobile py-space-lg shadow-[0_16px_32px_rgba(0,0,0,0.06)]" id="mobile-drawer"><nav class="flex flex-col gap-space-md" data-active-classes="text-primary font-semibold"><a class="font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface" data-path="portfolio" href="#">Portfolio</a><a class="font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface" data-path="services" href="#">Services &amp; Craft</a><a class="font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface" data-path="specifications" href="#">Spec Matrix</a><a class="font-headline-sm text-headline-sm text-on-surface-variant hover:text-on-surface" data-path="request-estimate" href="#">Project Estimator</a></nav></div></header><aside class="fixed right-6 top-1/2 -translate-y-1/2 z-40 hidden xl:flex flex-col items-end group"><div class="flex flex-col gap-5 py-4 px-2 items-center"><a class="group/dot flex items-center gap-3 transition-all" data-path="home" href="#"><span class="hidden group-hover/dot:inline-block font-label-md text-label-md text-primary bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm whitespace-nowrap">01 Overview</span><span class="w-2.5 h-2.5 rounded-full bg-outline/40 group-hover/dot:bg-primary-container group-hover/dot:scale-125 transition-all"></span></a><a class="group/dot flex items-center gap-3 transition-all" data-path="portfolio" href="#"><span class="hidden group-hover/dot:inline-block font-label-md text-label-md text-primary bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm whitespace-nowrap">02 Selected Works</span><span class="w-2.5 h-2.5 rounded-full bg-outline/40 group-hover/dot:bg-primary-container group-hover/dot:scale-125 transition-all"></span></a><a class="group/dot flex items-center gap-3 transition-all" data-path="services" href="#"><span class="hidden group-hover/dot:inline-block font-label-md text-label-md text-primary bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm whitespace-nowrap">03 Disciplines</span><span class="w-2.5 h-2.5 rounded-full bg-outline/40 group-hover/dot:bg-primary-container group-hover/dot:scale-125 transition-all"></span></a><a class="group/dot flex items-center gap-3 transition-all" data-path="specifications" href="#"><span class="hidden group-hover/dot:inline-block font-label-md text-label-md text-primary bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm whitespace-nowrap">04 Standards Matrix</span><span class="w-2.5 h-2.5 rounded-full bg-outline/40 group-hover/dot:bg-primary-container group-hover/dot:scale-125 transition-all"></span></a><a class="group/dot flex items-center gap-3 transition-all" data-path="request-estimate" href="#"><span class="hidden group-hover/dot:inline-block font-label-md text-label-md text-primary bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm whitespace-nowrap">05 Commission</span><span class="w-2.5 h-2.5 rounded-full bg-outline/40 group-hover/dot:bg-primary-container group-hover/dot:scale-125 transition-all"></span></a></div><div class="mt-2 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300 w-56 p-4 rounded-xl bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_12px_32px_rgba(13,60,0,0.08)]"><div class="font-caption text-caption uppercase tracking-wider text-outline mb-2 pb-1.5">Quick Navigator</div><nav class="flex flex-col gap-1.5" data-active-classes="text-primary font-semibold"><a aria-current="page" class="flex items-center justify-between py-1 text-primary font-semibold" data-path="home" href="#"><span class="text-outline text-xs">01</span><span>Overview</span></a><a class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-1" data-path="portfolio" href="#"><span class="text-outline text-xs">02</span><span>Portfolio</span></a><a class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-1" data-path="services" href="#"><span class="text-outline text-xs">03</span><span>Services</span></a><a class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-1" data-path="specifications" href="#"><span class="text-outline text-xs">04</span><span>Spec Matrix</span></a><a class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant hover:text-on-surface py-1" data-path="request-estimate" href="#"><span class="text-outline text-xs">05</span><span>Consultation</span></a></nav></div></aside><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full relative selection:bg-secondary-fixed selection:text-primary">
+<!-- SCHEMA JSON-LD -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LandscapeArchitect",
+        "@id": "https://ramirezlandscapingnc.com/#organization",
+        "name": "Ramirez General Landscaping",
+        "url": "https://ramirezlandscapingnc.com",
+        "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuAb33axwbxGOEBrPWSN1bS3lvDZNm_disccn7vJOGqPXHKigORALgNikgu0tdvZGMNyK1HvuJNjJDhr5iIy2olkTCoku9ZCZVngxLeqi7Ni8QZBB-ySerEaPnE3ADWk8pq3Y25xYiL68AHuCHaCxYo0RvOGvs9wPHbqqcZ5Gja5v8rkZ2YS7JTp5uJ5_kPSjTkIQDqoQtGQQSVjS09iJfuxd4LMFM8MoHQX_8T1PFDq2LG98KWJfRFu4w",
+        "image": "placeholder",
+        "telephone": "+19196569346",
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "20 Pine Limb Lane",
+          "addressLocality": "Raleigh",
+          "addressRegion": "NC",
+          "postalCode": "27606",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 35.7796,
+          "longitude": -78.6382
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "07:00",
+            "closes": "18:00"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "1280"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ramirezlandscapingnc.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you provide architectural grade hardscaping in Raleigh and Wake County?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ramirez General Landscaping engineers custom stone terraces, pool surrounds, and subterranean drainage across the Triangle."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are on-site consultations and structural estimates complimentary?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we conduct comprehensive property laser-grading assessments and architectural design reviews for all prospective clients."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<!-- DYNAMIC RIGHT DOT RAIL & QUICK NAV (Scroll-Spy Interactive) -->
+<div class="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col items-end group" id="dot-rail-nav">
+<div class="flex flex-col gap-4 py-3 px-2 items-center bg-surface-container-lowest/80 backdrop-blur-md rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-primary/5">
+<a class="rail-dot-link group/dot flex items-center gap-3 transition-all relative" data-target="hero" href="#hero">
+<span class="hidden group-hover/dot:inline-block absolute right-6 font-label-md text-label-md text-on-primary bg-primary px-3 py-1 rounded-full shadow-sm whitespace-nowrap">01 Hero</span>
+<span class="rail-indicator w-2.5 h-2.5 rounded-full bg-outline/30 group-hover/dot:scale-125 transition-all"></span>
+</a>
+<a class="rail-dot-link group/dot flex items-center gap-3 transition-all relative" data-target="about" href="#about">
+<span class="hidden group-hover/dot:inline-block absolute right-6 font-label-md text-label-md text-on-primary bg-primary px-3 py-1 rounded-full shadow-sm whitespace-nowrap">02 About</span>
+<span class="rail-indicator w-2.5 h-2.5 rounded-full bg-outline/30 group-hover/dot:scale-125 transition-all"></span>
+</a>
+<a class="rail-dot-link group/dot flex items-center gap-3 transition-all relative" data-target="services" href="#services">
+<span class="hidden group-hover/dot:inline-block absolute right-6 font-label-md text-label-md text-on-primary bg-primary px-3 py-1 rounded-full shadow-sm whitespace-nowrap">03 Services</span>
+<span class="rail-indicator w-2.5 h-2.5 rounded-full bg-outline/30 group-hover/dot:scale-125 transition-all"></span>
+</a>
+<a class="rail-dot-link group/dot flex items-center gap-3 transition-all relative" data-target="gallery" href="#gallery">
+<span class="hidden group-hover/dot:inline-block absolute right-6 font-label-md text-label-md text-on-primary bg-primary px-3 py-1 rounded-full shadow-sm whitespace-nowrap">04 Gallery</span>
+<span class="rail-indicator w-2.5 h-2.5 rounded-full bg-outline/30 group-hover/dot:scale-125 transition-all"></span>
+</a>
+<a class="rail-dot-link group/dot flex items-center gap-3 transition-all relative" data-target="reviews" href="#reviews">
+<span class="hidden group-hover/dot:inline-block absolute right-6 font-label-md text-label-md text-on-primary bg-primary px-3 py-1 rounded-full shadow-sm whitespace-nowrap">05 Reviews</span>
+<span class="rail-indicator w-2.5 h-2.5 rounded-full bg-outline/30 group-hover/dot:scale-125 transition-all"></span>
+</a>
+<a class="rail-dot-link group/dot flex items-center gap-3 transition-all relative" data-target="contact" href="#contact">
+<span class="hidden group-hover/dot:inline-block absolute right-6 font-label-md text-label-md text-on-primary bg-primary px-3 py-1 rounded-full shadow-sm whitespace-nowrap">06 Contact</span>
+<span class="rail-indicator w-2.5 h-2.5 rounded-full bg-outline/30 group-hover/dot:scale-125 transition-all"></span>
+</a>
+</div>
+</div>
+<!-- SECTION 1: HERO (#hero) -->
+<section class="relative w-full max-w-[1360px] mx-auto px-margin-mobile lg:px-margin pt-4 pb-16 lg:pb-24" id="hero">
+<!-- Screen Reader SEO Canonical Heading -->
+<h1 class="sr-only">A Landscaper in Pine Limb Raleigh North Carolina USA - Ramirez General Landscaping</h1>
+<div class="relative w-full rounded-[28px] overflow-hidden min-h-[640px] lg:min-h-[760px] flex flex-col justify-between p-6 sm:p-10 lg:p-16 shadow-[0_20px_50px_rgba(13,60,0,0.08)] bg-primary-container">
+<!-- Background Luxury Estate Imagery -->
+<img class="absolute inset-0 w-full h-full object-cover object-center opacity-80" data-alt="Panoramic twilight aerial view of an architectural modern residential estate pool terrace surrounded by manicured boxwood parterres, cascading water features, warm integrated hardscape LED illumination, and North Carolina native pines under a rich dusk sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJI7uAEuprOse273st1EJfuPH-wrvUGXmSf2zMwM4I92Ad3fMZk5t6UHxuvK2rauUKcoknPhHFVwB9UWaxhjzh8gaf5Yr6i375swIbEma5pPpNksISlclg781jmQG8rIo-0VCJk8FS0pesI_3b5SyTeGExwKpcybx5-7X1LCaYdrvkpNYdaf63r6LbLVSY6pBTPgnq7TfAvG3zT45DOQ86sqZpbpp0BLT4fZkhe9nF"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 via-transparent to-transparent"></div>
+<!-- Top Row: Emblem Framing + Trust Status -->
+<div class="relative z-10 flex items-center justify-between">
+<div class="flex items-center gap-4 bg-surface-container-lowest/90 backdrop-blur-xl px-4 py-2.5 rounded-full shadow-md">
+<img alt="Ramirez General Landscaping Emblem" class="w-8 h-8 rounded-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb33axwbxGOEBrPWSN1bS3lvDZNm_disccn7vJOGqPXHKigORALgNikgu0tdvZGMNyK1HvuJNjJDhr5iIy2olkTCoku9ZCZVngxLeqi7Ni8QZBB-ySerEaPnE3ADWk8pq3Y25xYiL68AHuCHaCxYo0RvOGvs9wPHbqqcZ5Gja5v8rkZ2YS7JTp5uJ5_kPSjTkIQDqoQtGQQSVjS09iJfuxd4LMFM8MoHQX_8T1PFDq2LG98KWJfRFu4w"/>
+<span class="font-label-md text-label-md tracking-wider text-primary uppercase">Pine Limb • Raleigh</span>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-lowest/85 backdrop-blur-xl px-4 py-2 rounded-full shadow-md">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface">5.0 ★ · 1,280+ Estates</span>
+</div>
+</div>
+<!-- Bottom Content Focus -->
+<div class="relative z-10 max-w-2xl mt-auto pt-24">
+<span class="inline-block px-3.5 py-1 rounded-full bg-secondary-container/90 text-primary font-label-md text-label-md tracking-wider uppercase mb-5">
+          Triangle Ecological Design
+        </span>
+<!-- Strictly 2 words visible headline -->
+<h2 class="font-display text-display text-on-primary font-semibold tracking-tight leading-none mb-4 drop-shadow-sm">
+          Artisanal Grounds
+        </h2>
+<!-- Strictly under 8 words visible subline -->
+<p class="font-body-lg text-body-lg text-inverse-on-surface/90 max-w-lg mb-8">
+          Master landscape architecture crafted in Raleigh.
+        </p>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-8 py-4 rounded-[12px] bg-secondary-fixed text-primary font-label-lg text-label-lg transition-transform hover:-translate-y-0.5 shadow-xl hover:shadow-2xl" href="#contact">
+            Book Estimate
+          </a>
+<a class="inline-flex items-center gap-2.5 px-6 py-4 rounded-[12px] bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-lg text-label-lg hover:bg-surface-container-lowest transition-all shadow-md" href="tel:+19196569346">
+<span class="material-symbols-outlined text-secondary">call</span>
+<span>+1 (919) 656-9346</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: ABOUT (#about) -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-16 lg:py-24" id="about">
+<h2 class="sr-only">Ramirez Landscaping Raleigh Heritage and Execution Standards</h2>
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<div class="inline-block px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md uppercase tracking-wider mb-4">
+          01 · Heritage
+        </div>
+<h3 class="font-headline-lg text-headline-lg text-primary font-semibold tracking-tight">
+          Precision Craftsmanship
+        </h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+        Transforming North Carolina soil since 2018.
+      </p>
+</div>
+<!-- Asymmetric Split Bento -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+<div class="lg:col-span-7 rounded-[28px] overflow-hidden relative min-h-[380px] lg:min-h-[440px] shadow-sm bg-surface-container">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Professional landscape architect stone-masonry team installing structural travertine pavers with precision leveling and flush outdoor kitchen patio foundation under warm afternoon Carolina sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9pcyOuPyB3oKzJ1s3fXTT5MBo2g-4FxgbaR5IeqwzNkJ-6eGforJZsP4DHcrgCnqgzJBYQ3ARt7D4bEOiBI4psVj_q_F5tJG1w-wBdAqeFiSxJcb1VTRcn2q8wNTvJzll5aJdBbcC4nGVzytJ8dadOJAH5UaNY-8CVbjM806tXZG5pK-hMtzRXjJjTlxyObacOrxbmWJeDYcagHAWhOB9_Gli3POiTmauRmYqcqtM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex items-center justify-between text-on-primary">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary-fixed">Engineered Masonry</span>
+<span class="font-caption text-caption opacity-80">Raleigh HQ · Licensed &amp; Insured</span>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col justify-between gap-4">
+<div class="p-8 rounded-[28px] bg-surface-container-lowest shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-center">
+<span class="font-display text-display text-primary font-semibold leading-none tracking-tight">2018</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-outline mt-2">Established</span>
+</div>
+<div class="p-8 rounded-[28px] bg-surface-container-lowest shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-center">
+<span class="font-display text-display text-secondary font-semibold leading-none tracking-tight">1,280+</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-outline mt-2">Transformations</span>
+</div>
+<div class="p-8 rounded-[28px] bg-surface-container-lowest shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-center">
+<span class="font-display text-display text-primary font-semibold leading-none tracking-tight">100%</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-outline mt-2">Guaranteed</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: SERVICES BENTO (#services) -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-16 lg:py-24" id="services">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<div class="inline-block px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md uppercase tracking-wider mb-4">
+          02 · Disciplines
+        </div>
+<h3 class="font-headline-lg text-headline-lg text-primary font-semibold tracking-tight">
+          Curated Offerings
+        </h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+        Architectural outdoor living engineered to endure.
+      </p>
+</div>
+<!-- Bento Grid of 5 Services -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: Pavers (Large 2-col span on desktop) -->
+<div class="lg:col-span-2 group relative rounded-[28px] overflow-hidden min-h-[320px] bg-surface-container-lowest shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-end p-8 transition-all hover:shadow-xl">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Custom interlocking stone patio paver installation surrounding a clean infinity-edge plunge pool with integrated recessed perimeter drainage and lush lawn edge in Raleigh." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSM_ESCR7NJjR-ekPa7p9juq4YVefk6jrnk62dw7qx9KXNnIRO0L694pRHV_M-69kzNm9TmxlPD22mDYFJa92VGN4oXfjCb4Kfo-A8SrapR3ryDXjczlFX5PLG3BCbWME9C0kZDlxCyPmfNB5XhdqP8LvupW1L6mnkJzQw4BeviwrxmDoY0qEnE6jLWyrorfmZfJLvJmPJ7RZPf9wPlqcYJqZ5ATBXceBiP2aW6Bmc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
+<div class="relative z-10 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Stone Craft</span>
+<h4 class="font-headline-md text-headline-md font-semibold">Pavers</h4>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/20 backdrop-blur-md flex items-center justify-center text-on-primary group-hover:bg-primary-fixed group-hover:text-primary transition-all">
+<span class="material-symbols-outlined">arrow_outward</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Drainage -->
+<div class="group relative rounded-[28px] overflow-hidden min-h-[320px] bg-surface-container-lowest shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-end p-8 transition-all hover:shadow-xl">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Precision subterranean French drain gravel channel construction and grading system installed along a slope next to North Carolina pine yard." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuCCEWfxRPfubugb0-y3vxT1ioCdR1ANO7bbgV2xWKAao2E2QtXOYel7qbQ_QK_zzhLA_01Muib4MOV5_Dlw2anc7eIMdiQGlbmbBHRaFe9PZiDi9prKASmjXn2VfqnKcjR4RUBmSMwzBvej3BqEjdgK8DAhSxG0_UoHaHYicmj4r2iVgjtwez3aHjKnksJASxdZsPJQQYsdtuQq0qzGMq0-A5zTzG3k7Jrj6B-cU1"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
+<div class="relative z-10 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Hydrology</span>
+<h4 class="font-headline-md text-headline-md font-semibold">Drainage</h4>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/20 backdrop-blur-md flex items-center justify-center text-on-primary group-hover:bg-primary-fixed group-hover:text-primary transition-all">
+<span class="material-symbols-outlined">arrow_outward</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Sod -->
+<div class="group relative rounded-[28px] overflow-hidden min-h-[320px] bg-surface-container-lowest shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-end p-8 transition-all hover:shadow-xl">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Vibrant deep green freshly laid Bermuda and fescue sod lawn stripes on graded black loam topsoil in Wake County residence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaDlbdrU6ZLkoVPKAye4Q6ZKuSivi7_UfrkKTVXJPVfhrfoI7qH2uFF60dRj5-G-i96OvcxRw8oZJz6X1BLMHsgSGe6F2WPbjx5fMHLupe2AjMAf_yuJ--0qZWVxfnENLnWwwaaG3l4U93mnrdrQhg4Vw5JdyoX2t4MoqSX5zkWtpL6N9XlSNxVZMWH3Wmlyfp_1iqVAfY1fK4xzZUNxH0k68rYVpaFVQ_ja5Oy6oi"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
+<div class="relative z-10 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Agronomy</span>
+<h4 class="font-headline-md text-headline-md font-semibold">Sod</h4>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/20 backdrop-blur-md flex items-center justify-center text-on-primary group-hover:bg-primary-fixed group-hover:text-primary transition-all">
+<span class="material-symbols-outlined">arrow_outward</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Masonry -->
+<div class="group relative rounded-[28px] overflow-hidden min-h-[320px] bg-surface-container-lowest shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-end p-8 transition-all hover:shadow-xl">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Architectural stacked fieldstone retaining wall illuminated by low-voltage flush landscape step lights in an evening garden terrace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYregnWLc6xXj0iE6RJOS7SEwL8vLJd9Mu_lvDHKtthQb2K6ayHCtUjn30ibvkn68xaYQR_1QCyftAM1HaZqecTqjCBaJ5Dj6NdOROjiWwJw4nrsV1GLiimMo0bQyMxtOAs2QDSO6Ixwz8j0DvtNUlKYm-cAShA0Vnpv_k4m3An7YUdIcRD6LPHU5iJk43_-tRHrLkfZeC4M8GQOCIRv_-OVQW_a_DwsxlrTO0GXR9"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
+<div class="relative z-10 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Structural</span>
+<h4 class="font-headline-md text-headline-md font-semibold">Masonry</h4>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/20 backdrop-blur-md flex items-center justify-center text-on-primary group-hover:bg-primary-fixed group-hover:text-primary transition-all">
+<span class="material-symbols-outlined">arrow_outward</span>
+</div>
+</div>
+</div>
+<!-- Card 5: Living -->
+<div class="group relative rounded-[28px] overflow-hidden min-h-[320px] bg-surface-container-lowest shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col justify-end p-8 transition-all hover:shadow-xl">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Covered cedar pergola with modern built-in stainless steel outdoor kitchen, stone fireplace, and polished concrete bar counter in evening ambient light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDckuTGWXt-v2icGy3O7qYfmRldHgvDB63s1OpM1pjqQPlpi5jcTg70d_kjdaBCxvBrtB0YscqRZsyMRrA1X5uU28S_v8jv44g_307RiSwXHkOl4VXqGrviym7ahKrKIUSvnUKeU4sZYYbY-XRd4cP4jmlvWRYJfDOiYNSYEP1xliQsQ9SWDDQZN9SE755i02znwiDIK7USpKP8j_Orbnhz6sWQk3S00JLxiU3kKLcf"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
+<div class="relative z-10 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Hardscape</span>
+<h4 class="font-headline-md text-headline-md font-semibold">Living</h4>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/20 backdrop-blur-md flex items-center justify-center text-on-primary group-hover:bg-primary-fixed group-hover:text-primary transition-all">
+<span class="material-symbols-outlined">arrow_outward</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Minimal Endless Marquee Ticker -->
+<div class="mt-8 py-4 px-6 rounded-full bg-surface-container overflow-hidden flex whitespace-nowrap">
+<div class="flex items-center gap-8 font-label-md text-label-md text-primary tracking-widest uppercase animate-marquee">
+<span>Patio Pavers</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Sod Installation</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>French Drains</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Retaining Walls</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Outdoor Living</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Laser Grading</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Patio Pavers</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Sod Installation</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>French Drains</span>
+</div>
+</div>
+</section>
+<!-- SECTION 4: GALLERY (#gallery) -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-16 lg:py-24" id="gallery">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<div class="inline-block px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md uppercase tracking-wider mb-4">
+          03 · Folio
+        </div>
+<h3 class="font-headline-lg text-headline-lg text-primary font-semibold tracking-tight">
+          Selected Grounds
+        </h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+        Recent residential transformations across the Triangle.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Project 1 -->
+<div class="group relative rounded-[28px] overflow-hidden h-[420px] shadow-sm bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Aerial architectural photography of an estate grounds in Cary NC featuring multi-tiered natural stone terraces and night lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhVpG8nP4Pn7jW4-oZNj7w_Law6mCzBKhSzBuOtt7-KnebUgUCq3W2wpYbFxda5GSKVZBXU9jGhpzgNVHrI2UlNvut6rKOE4aBR7CWgl8wxqEIjKQE9JGzJHLD3KXv1wOJjNzcwPlXUH8eW9r1Iz8AxtKnj_w108JdIoINDi77CCdoVCvixxg5729PoYNgiMInL6FZ-Q-KiBMit1gpNie7mg4TA3qQUSyCdWRxyHMe"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/85 via-transparent to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-md text-label-md text-primary">Cary, NC</span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Estate Elevation</span>
+<p class="font-headline-sm text-headline-sm font-medium">Preston Manor Hardscape</p>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group relative rounded-[28px] overflow-hidden h-[420px] shadow-sm bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Refined contemporary backyard terrace with built-in stone grill station and linear fire table under Raleigh dusk sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqqjyHGYWvTgKL1GPVIXn_M4paL_LriTyRcOKiwuS6tme3X2Ts3f-Zx2tLBcJfOtTe61ZcKhzYoPc9xbBei17ACUF_gqjgnfcramHbPCTlZROoU0xE4HA-69RtBAI-6QHUKX_VyUE3_DiATcbQj9-edL7k8zG9PViWAv9O7Al_3V9-5thYkxPpiE4rDN1fk67Y49jI2OHieJkdZiAtdaDT0N5FMf8cWmVWdj3QKM2a"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/85 via-transparent to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-md text-label-md text-primary">Raleigh, NC</span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Living Pavilion</span>
+<p class="font-headline-sm text-headline-sm font-medium">Hayes Barton Terrace</p>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group relative rounded-[28px] overflow-hidden h-[420px] shadow-sm bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Precision tiered sod terraces bordered by dry-stack stone walls and specimen Japanese maples in Wake Forest NC." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeFDIEd6xK0pjV5OPvSj96rZIF9lA-z9VFxItExqAHTdtxVfPr6ODmY_AC6sJPr4bgap5erdPH57hSrx1kBlRHoEJa4rqv1gmchXiH7gBEDJC5Dz2TepvPtl_arSVIOe8JxGbrgjBCSgcUMLQlpUUoDv3Y9fuOUr7sJe-7cri5LDamm-6sJrt7RnjzeojHURdpGd0FXbwBrTTDLeW1gH7Bi_ZxwphJxN60TaWg6GHD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/85 via-transparent to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-md text-label-md text-primary">Wake Forest, NC</span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-caption text-caption uppercase tracking-wider text-primary-fixed">Grade Restoration</span>
+<p class="font-headline-sm text-headline-sm font-medium">Heritage Pines Grounds</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: REVIEWS (#reviews) -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-16 lg:py-24" id="reviews">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<div class="inline-block px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md uppercase tracking-wider mb-4">
+          04 · Words
+        </div>
+<h3 class="font-headline-lg text-headline-lg text-primary font-semibold tracking-tight">
+          Verified Distinction
+        </h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+        Homeowners who demand relentless execution quality.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="p-8 rounded-[28px] bg-surface-container-lowest shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between">
+<div>
+<div class="flex text-amber-500 mb-6">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium leading-snug mb-6">
+            “Ramirez transformed our sloped Raleigh yard into architectural perfection.”
+          </p>
+</div>
+<div class="flex items-center justify-between text-outline">
+<span class="font-label-md text-label-md text-primary font-semibold">David M.</span>
+<span class="font-caption text-caption">North Hills, Raleigh</span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-8 rounded-[28px] bg-surface-container-lowest shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between">
+<div>
+<div class="flex text-amber-500 mb-6">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium leading-snug mb-6">
+            “Unmatched precision pavers and stone retaining work. Flawless team.”
+          </p>
+</div>
+<div class="flex items-center justify-between text-outline">
+<span class="font-label-md text-label-md text-primary font-semibold">Elena S.</span>
+<span class="font-caption text-caption">Lochmere, Cary</span>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-8 rounded-[28px] bg-surface-container-lowest shadow-[0_4px_24px_rgba(0,0,0,0.03)] flex flex-col justify-between">
+<div>
+<div class="flex text-amber-500 mb-6">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-medium leading-snug mb-6">
+            “Subterranean drainage resolved years of stormwater flooding instantly.”
+          </p>
+</div>
+<div class="flex items-center justify-between text-outline">
+<span class="font-label-md text-label-md text-primary font-semibold">Marcus K.</span>
+<span class="font-caption text-caption">Wake Forest</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: CONTACT & NAP HUB (#contact) -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-16 lg:py-24 mb-12" id="contact">
+<div class="rounded-[36px] bg-primary text-on-primary p-8 sm:p-12 lg:p-20 relative overflow-hidden shadow-2xl">
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left: Direct Action -->
+<div class="lg:col-span-7 flex flex-col">
+<div class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/15 backdrop-blur-md text-primary-fixed font-label-md text-label-md uppercase tracking-wider mb-6 w-fit">
+            05 · Connect
+          </div>
+<h3 class="font-headline-lg text-headline-lg font-semibold tracking-tight leading-tight mb-4">
+            Begin Your Vision
+          </h3>
+<p class="font-body-md text-body-md text-surface-container-high/80 mb-8 max-w-md">
+            Direct master consultations for Raleigh property owners.
+          </p>
+<a class="font-display text-display font-semibold text-secondary-fixed hover:text-white transition-colors mb-8 leading-none tracking-tight" href="tel:+19196569346">
+            +1 (919) 656-9346
+          </a>
+<div class="flex flex-wrap items-center gap-4">
+<button class="px-8 py-4 rounded-[12px] bg-secondary-fixed text-primary font-label-lg text-label-lg hover:bg-white transition-all shadow-lg" onclick="document.getElementById('estimate-modal').classList.remove('hidden')">
+              Request Consultation
+            </button>
+<div class="flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-surface-container-high font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping"></span>
+<span>Mon-Sat 7AM - 6PM • Emergency On-Call</span>
+</div>
+</div>
+</div>
+<!-- Right: Verified NAP Location Plate -->
+<div class="lg:col-span-5 bg-surface-container-lowest text-on-surface p-8 rounded-[28px] shadow-lg flex flex-col justify-between">
+<div class="flex items-center gap-4 mb-6">
+<img alt="Ramirez Emblem" class="w-12 h-12 rounded-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb33axwbxGOEBrPWSN1bS3lvDZNm_disccn7vJOGqPXHKigORALgNikgu0tdvZGMNyK1HvuJNjJDhr5iIy2olkTCoku9ZCZVngxLeqi7Ni8QZBB-ySerEaPnE3ADWk8pq3Y25xYiL68AHuCHaCxYo0RvOGvs9wPHbqqcZ5Gja5v8rkZ2YS7JTp5uJ5_kPSjTkIQDqoQtGQQSVjS09iJfuxd4LMFM8MoHQX_8T1PFDq2LG98KWJfRFu4w"/>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-semibold text-primary leading-tight">Ramirez Landscaping</h4>
+<span class="font-caption text-caption text-outline">Wake County Licensed Operations</span>
+</div>
+</div>
+<!-- Location Map Container -->
+<div class="w-full h-44 rounded-2xl bg-surface-container overflow-hidden mb-6 relative" data-location="20 Pine Limb Lane, Raleigh, NC 27606" style="">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Topographical street map overlay centered on Pine Limb Lane Raleigh North Carolina with subtle forest green route highlights." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5GXquA3GT-SjIcpoGzE9qltGWpIDyzYj2jN_mi44lmv6caXjOjFtdHujwAOrqHxZa9csYZvLKqwiL4oHuMcE-tdMFVwzPnbaGIBdRz-OGt1GVOhJ8ZCH7NyF47m0RNn_XiPx1yMI34w2gn78H8FLc5tr1h3UW2LtC--AYlITCvKI8KX5gNtN8QjPyqCf8AjODIQCsuN_PtUI2cVi3yFksgFelKhxJA2z25gZUgss1')"></div>
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1 rounded-full text-primary font-label-md text-label-md flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">location_on</span>
+<span>20 Pine Limb Lane, Raleigh NC 27606</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline font-caption text-caption pt-2">
+<span>Lat: 35.7796° N, 78.6382° W</span>
+<span class="text-primary font-medium">Raleigh &amp; Triangle Area</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ESTIMATE MODAL SHEET -->
+<div class="hidden fixed inset-0 z-50 bg-primary/70 backdrop-blur-md flex items-center justify-center p-4" id="estimate-modal">
+<div class="bg-surface-container-lowest rounded-[28px] max-w-lg w-full p-8 shadow-2xl relative">
+<button class="absolute top-6 right-6 text-outline hover:text-primary" onclick="document.getElementById('estimate-modal').classList.add('hidden')">
+<span class="material-symbols-outlined">close</span>
+</button>
+<div class="flex items-center gap-3 mb-6">
+<img alt="Logo" class="w-8 h-8 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb33axwbxGOEBrPWSN1bS3lvDZNm_disccn7vJOGqPXHKigORALgNikgu0tdvZGMNyK1HvuJNjJDhr5iIy2olkTCoku9ZCZVngxLeqi7Ni8QZBB-ySerEaPnE3ADWk8pq3Y25xYiL68AHuCHaCxYo0RvOGvs9wPHbqqcZ5Gja5v8rkZ2YS7JTp5uJ5_kPSjTkIQDqoQtGQQSVjS09iJfuxd4LMFM8MoHQX_8T1PFDq2LG98KWJfRFu4w"/>
+<h4 class="font-headline-sm text-headline-sm font-semibold text-primary">Request Property Estimate</h4>
+</div>
+<form class="flex flex-col gap-4" onsubmit="event.preventDefault(); alert('Consultation request transmitted. Our Raleigh team will reach out within 2 hours.'); document.getElementById('estimate-modal').classList.add('hidden');">
+<div>
+<label class="font-label-md text-label-md text-outline block mb-1">Full Name</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary text-body-sm" placeholder="Cameron Brooks" required="" type="text"/>
+</div>
+<div>
+<label class="font-label-md text-label-md text-outline block mb-1">Phone Number</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary text-body-sm" placeholder="(919) 000-0000" required="" type="tel"/>
+</div>
+<div>
+<label class="font-label-md text-label-md text-outline block mb-1">Service Required</label>
+<select class="w-full px-4 py-3 rounded-xl bg-surface-container text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary text-body-sm">
+<option>Patio Pavers &amp; Hardscaping</option>
+<option>French Drains &amp; Grading</option>
+<option>Sod Turf Installation</option>
+<option>Retaining Walls &amp; Masonry</option>
+<option>Complete Estate Overhaul</option>
+</select>
+</div>
+<button class="mt-2 w-full py-4 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container transition-all" type="submit">
+          Confirm Consultation
+        </button>
+</form>
+</div>
+</div>
+<!-- INTERACTIVE SCROLL-SPY & MODAL SCRIPT -->
+<script>
+    (function() {
+      const sections = document.querySelectorAll('section[id]');
+      const railLinks = document.querySelectorAll('.rail-dot-link');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const currentId = entry.target.getAttribute('id');
+            railLinks.forEach(link => {
+              const indicator = link.querySelector('.rail-indicator');
+              if (link.getAttribute('data-target') === currentId) {
+                indicator.classList.remove('bg-outline/30');
+                indicator.classList.add('bg-primary', 'scale-150');
+              } else {
+                indicator.classList.add('bg-outline/30');
+                indicator.classList.remove('bg-primary', 'scale-150');
+              }
+            });
+          }
+        });
+      }, { rootMargin: '-20% 0px -60% 0px' });
+
+      sections.forEach(sec => observer.observe(sec));
+    })();
+  </script>
+</div>
+<!--
+ROBOTS.TXT:
+User-agent: *
+Allow: /
+Sitemap: https://ramirezlandscapingnc.com/sitemap.xml
+
+SITEMAP.XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ramirezlandscapingnc.com/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+--></main><footer class="w-full bg-surface-container-low py-space-lg shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-[1360px] mx-auto px-margin-mobile lg:px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Ramirez Landscaping" class="w-7 h-7 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XtSbmrNZw0uX9jYFMeIIGCLfLHH_4Vpyk8-hFIC8ffbG71gXUVHJK0uSz83lrDWOi-bGhKp7BaGHBLRlvKWsN7FjUmK7GhIj8a2htANELzRXkk9iqvn6AycnlBkoB9MOuntziEgOHNxMeYtQDKLukY2gFex2Epwl_sWhwTD5onr-2Gp6LyLqh6E8lvDa1MVMBeU-B3p_o9VzXIv1hN3KAt_z0oSdQHl8gYA8nPLGqoP5EqlIGOGCgaiuao"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">RAMIREZ</span><span class="font-caption text-caption text-outline">— Raleigh &amp; Triangle Native Modern Landscaping</span></div><div class="flex items-center gap-space-lg text-on-surface-variant"><span class="font-caption text-caption">© 2025 Ramirez General Landscaping LLC. All rights reserved.</span><a class="font-caption text-caption hover:text-on-surface transition-colors" data-path="specifications" href="#">Environmental Specs</a><a class="font-caption text-caption hover:text-on-surface transition-colors" data-path="request-estimate" href="#">Client Portal</a></div></div></footer><script>const menuBtn=document.getElementById('menu-toggle');const mobileDrawer=document.getElementById('mobile-drawer');if(menuBtn&&mobileDrawer){menuBtn.addEventListener('click',()=>mobileDrawer.classList.toggle('hidden'));}</script></body></html>
